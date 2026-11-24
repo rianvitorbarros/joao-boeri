@@ -1,0 +1,6 @@
+{
+  "name": "João Boeri Advocacia",
+  "description": "Site institucional focado em Direito Previdenciário (INSS, aposentadorias, BPC/LOAS) do advogado João Boeri em Parauapebas/PA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
