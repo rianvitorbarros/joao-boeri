@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface ButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
-  variant?: 'primary' | 'secondary' | 'outline' | 'whatsapp';
+  variant?: 'primary' | 'secondary' | 'outline' | 'outlineDark' | 'whatsapp';
   children?: React.ReactNode;
   href?: string;
   className?: string;
@@ -17,6 +17,7 @@ export function Button({ children, variant = 'primary', className = '', href, ..
     primary: 'bg-slate-900 text-white hover:bg-slate-800 hover:shadow-md',
     secondary: 'bg-[#C5A880] text-white hover:bg-[#B3966D] hover:shadow-md', // Elegant Gold/Beige
     outline: 'border-2 border-slate-700 text-slate-300 hover:bg-slate-800 hover:border-slate-600 hover:text-white',
+    outlineDark: 'border-2 border-slate-800/80 text-slate-800 hover:bg-slate-900 hover:border-slate-900 hover:text-white',
     whatsapp: 'bg-[#25D366] text-white hover:bg-[#20BD5A] hover:shadow-md',
   };
 

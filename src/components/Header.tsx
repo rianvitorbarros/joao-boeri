@@ -30,7 +30,7 @@ export function Header({ activeId }: { activeId?: string }) {
   ];
 
   const isActive = (href: string) => activeId === href;
-  const isDarkTheme = activeId ? ['inicio', 'sobre', 'avaliacoes', 'como-funciona', 'rodape'].includes(activeId) : !isScrolled;
+  const isDarkTheme = activeId ? ['sobre', 'avaliacoes', 'como-funciona', 'rodape'].includes(activeId) : false; // hero has a light background, so the header starts in its light style
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     if (!isHome) {

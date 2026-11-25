@@ -45,7 +45,7 @@ export function Preloader() {
     };
 
     // Load appropriate image based on viewport
-    heroImage.src = isMobile ? '/hero-mobile-joao-boeri.jpg' : '/hero-bg.jpg';
+    heroImage.src = isMobile ? '/hero-joao-boeri-mobile.jpg' : '/hero-joao-boeri-desktop.jpg';
 
     return () => {
       isMounted = false;
